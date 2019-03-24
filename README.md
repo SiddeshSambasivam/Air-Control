@@ -41,7 +41,7 @@ For OpenCV,
 
 
 # BACKGROUND
-Air control uses contour mapping in opencv library to draw a curve joining all the continuous points (along the boundary), having same color or intensity. Tracking the movement of a finger is an important feature of many computer vision applications. 
+Air control uses contour mapping in opencv library to find the set of all points having same color or intensity. Tracking the movement of a finger is an important feature of many computer vision applications. 
 
 In this application, a histogram based approach is used to separate out the hand from the background frame. Thresholding and Filtering techniques are used for background cancellation to obtain optimum results. 
 
