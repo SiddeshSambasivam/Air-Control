@@ -43,7 +43,7 @@ For OpenCV,
 # BACKGROUND
 Air control uses contour mapping in opencv library to find the set of all points having same color or intensity. Tracking the movement of a finger is an important feature of many computer vision applications. 
 
-In this application, a histogram based approach is used to separate out the hand from the background frame. Thresholding and Filtering techniques are used for background cancellation to obtain optimum results. 
+In this application, we capture the background and then create a mask to remove all traces of the background to prevent background disturbances.
 
 #### Note that we have used a glove with markings to control the PC with air gestures.
 
